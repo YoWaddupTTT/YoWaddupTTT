@@ -1,5 +1,11 @@
-
-
+html {
+    height: 100%;
+}
+center {
+    
+    margin:0;
+    padding: 0; 
+} 
 body { 
     color: white;
     margin:0;
@@ -7,15 +13,15 @@ body {
     background-color: rgb(32, 32, 32); 
     font-family: "Anton", serif;
     font-weight: 400;
-    font-style: normal;
-    display: flex;
+    font-style: normal; 
     flex-direction: column;
     background-image: url("background.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
  
-div {
-    display: flex;
+div { 
 }
 
 .header { 
@@ -28,17 +34,18 @@ div {
     background-color: rgba(24, 24, 24, 0.32);
     border-radius: 16px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.24);
-    border: 1px solid rgba(146, 146, 146, 0.24);
+    border: 1px solid rgba(146, 146, 146, 0.24); 
 
     backdrop-filter: blur(16px);
     margin: 128px;
     align-items: center;
     flex-direction: column;
-    height: 100%;
 }
 .thatguy {
-    justify-self: flex-end;
-    width: 400px;
+    width: 30%;
+}
+.thatguyshouse { 
+    margin-top:20%; 
 }
 
 .toplevelmarquee {
@@ -49,5 +56,5 @@ div {
 .loadingtext { 
     width: 100%;
     height: 100%; 
-    font-size: 32px;
+    font-size: 40px;
 }
